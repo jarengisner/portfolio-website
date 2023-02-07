@@ -1,0 +1,20 @@
+/*removed from a styling*/
+a:visited {
+  color: #7705db;
+}
+
+a:active {
+  color: #3333ce;
+}
+
+/*removed from below standard header item */
+
+.navigation-bar li {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+/*
+#fdf49d,#ffe36f,#ffc455,#ff8f43,#ff612b colors.
+*/
