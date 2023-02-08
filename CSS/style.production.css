@@ -36,6 +36,7 @@ h1 {
 
 .standard-body {
   text-align: center;
+  margin: 50px;
 }
 
 a {
@@ -59,6 +60,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  padding: 20px;
 }
 
 a:hover {
@@ -75,7 +77,8 @@ a:focus {
   border-radius: 4px;
 }
 
-button {
+button,
+.message-send__button {
   border: none;
   font-family: Kanit, sans-serif;
   font-size: 16px;
@@ -131,6 +134,10 @@ button:hover {
   border-color: #256f9d;
   padding: 10px;
   scale: 1.1;
+}
+
+.message-send__button {
+  margin-top: 10px;
 }
 
 .navigation-bar__active {
@@ -210,7 +217,7 @@ button:hover {
 .navigation-bar li {
   display: inline-block;
   padding: 10px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 
 #projects__heading {
@@ -251,16 +258,29 @@ button:hover {
   max-width: 250px;
   min-width: 150px;
 }
-
 @media all and (max-width: 500px) {
   .grid {
-    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
-
-  .standard-header_item {
-    width: 200px;
-    height: 80px;
+  /*may make styling weird for mid-size screens below. If needed, remove*/
+  .standard-header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .standard-header .standard-header_item {
+    width: 100%;
+    max-height: auto;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .standard-header .header_navbar {
+    text-align: initial;
+    flex-basis: 0;
+  }
+  .svg-div {
+    width: 100px;
+    height: auto;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
