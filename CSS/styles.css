@@ -40,16 +40,13 @@ h1 {
   font-family: Kanit, sans-serif;
   font-weight: var(--font-capital);
   color: var(--primary-color);
+  align-items: center;
 }
 
 .find-me {
   font-family: Kanit, sans-serif;
   font-weight: var(--font-capital);
   font-size: x-large;
-}
-
-.standard-body {
-  text-align: center;
 }
 
 a {
