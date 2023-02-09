@@ -138,6 +138,9 @@ button:hover {
 
 .message-send__button {
   margin-top: 10px;
+  background-color: white;
+  border: 2px solid #256f9d;
+  color: #256f9d;
 }
 
 .navigation-bar__active {
@@ -156,7 +159,7 @@ button:hover {
 .profile__portrait {
   float: left;
   width: 250px;
-  padding-right: 40px;
+  padding-right: 0px;
   min-width: 150px;
   max-width: 300px;
   border-radius: 50%;
@@ -171,6 +174,7 @@ button:hover {
 .profile {
   max-width: 700px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .standard-footer {
@@ -281,6 +285,19 @@ button:hover {
   .svg-div {
     width: 100px;
     height: auto;
+  }
+  .navigation-bar {
+    padding: 0 60px 0 60px;
+    text-align: center;
+  }
+  .profile__portrait {
+    float: left;
+    width: 250px;
+    padding-right: 0px;
+    margin-left: 10px;
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 50%;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px) {
