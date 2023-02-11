@@ -189,6 +189,15 @@ button:hover {
   text-align: center;
 }
 
+.footer-logo__link {
+  border: none;
+}
+
+.footer-logo__link:hover,
+.footer-logo__link:focus {
+  border: none;
+}
+
 .standard-header {
   display: -webkit-box;
   display: -ms-flexbox;
