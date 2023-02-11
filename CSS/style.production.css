@@ -28,6 +28,10 @@ h1 {
   color: #256f9d;
 }
 
+.greeting {
+  margin: 10px;
+}
+
 .find-me {
   font-family: Kanit, sans-serif;
   font-weight: 700;
@@ -304,7 +308,7 @@ button:hover {
     float: left;
     width: 250px;
     padding-right: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     min-width: 150px;
     max-width: 300px;
     border-radius: 50%;
