@@ -94,7 +94,8 @@ button,
   transition: all 450ms;
 }
 
-.about-button {
+.about-button,
+.about-button:focus {
   border: none;
   font-family: Kanit, sans-serif;
   font-size: 16px;
