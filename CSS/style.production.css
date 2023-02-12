@@ -98,9 +98,7 @@ button,
   transition: all 450ms;
 }
 
-.about-button,
-.about-button:focus {
-  border: none;
+.about-button {
   font-family: Kanit, sans-serif;
   font-size: 16px;
   color: white;
@@ -115,20 +113,20 @@ button,
   transition: all 450ms;
 }
 
-button:hover {
-  border: none;
+.about-button:hover,
+.about-button:focus {
   font-family: Kanit, sans-serif;
   font-size: 16px;
   color: #256f9d;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 4px;
   border: 2px solid;
   border-color: #256f9d;
   padding: 10px;
-  scale: 1.1;
+  text-align: center;
 }
 
-.about-button:hover {
+button:hover {
   border: none;
   font-family: Kanit, sans-serif;
   font-size: 16px;
@@ -347,57 +345,36 @@ button:hover {
   }
 }
 
-@-webkit-keyframes sun-change {
-  0% {
-    fill: #fdf49d;
-    translate: 0 -130px;
-  }
-  20% {
-    fill: #fdf49d;
-    translate: 0 -330px;
-  }
-  40% {
-    fill: #ffe36f;
-    translate: 0 -530px;
-  }
-  60% {
-    fill: #ffe36f;
-    translate: 0 -730px;
-  }
-  80% {
-    fill: #ff8f43;
-    translate: 0 -930px;
-  }
-  100% {
-    fill: #ff612b;
-    translate: 0 -1130px;
-  }
-}
-
 @keyframes sun-change {
   0% {
     fill: #fdf49d;
     translate: 0 -130px;
+    -webkit-translate: 0 -130px;
   }
   20% {
     fill: #fdf49d;
     translate: 0 -330px;
+    -webkit-translate: 0 -330px;
   }
   40% {
     fill: #ffe36f;
     translate: 0 -530px;
+    -webkit-translate: 0 -530px;
   }
   60% {
     fill: #ffe36f;
     translate: 0 -730px;
+    -webkit-translate: 0 -730px;
   }
   80% {
     fill: #ff8f43;
     translate: 0 -930px;
+    -webkit-translate: 0 -930px;
   }
   100% {
     fill: #ff612b;
     translate: 0 -1130px;
+    -webkit-translate: 0 -1130px;
   }
 }
 
