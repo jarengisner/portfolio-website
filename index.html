@@ -1,115 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jaren Gisner</title>
-    <link rel="icon" href="./img/favicon-32x32.png" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="CSS/style.production.css" type="text/css" />
-  </head>
 
-  <body>
-    <header class="standard-header">
-      <img
-        src="img/3rd-try.jpg"
-        alt="Jaren-Gisner-logo"
-        class="standard-header_item"
-      />
-      <nav class="header_navbar">
-        <ul class="navigation-bar" role="menubar">
-          <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-bar__active"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="projects.html"
-              role="menuitem"
-              class="navigation-bar__inactive"
-              >Projects</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="about.html"
-              role="menuitem"
-              class="navigation-bar__inactive"
-              >About</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="contact.html"
-              role="menuitem"
-              class="navigation-bar__inactive"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="standard-body">
-      <div class="profile">
-        <!--Make sure to replace http://via.placeholder.com/150x150 within page!-->
-        <img
-          src="img/0.jpeg"
-          alt="Jaren-Gisner-Image"
-          class="profile__portrait"
-        />
-        <!--Change text to not be Hello World later-->
-        <h1 class="greeting">Hi!</h1>
-        <p>
-          My name is Jaren Gisner I am a <span id="web">web</span> development
-          student!<br />
-          I am passionate about building and learning about all things coding
-          and development!
-        </p>
-      </div>
-      <div class="buttondiv">
-        <form action="projects.html" id="button__form">
-          <button id="clickButton">Click here to check out my work!</button>
-        </form>
-      </div>
-    </main>
-    <footer class="standard-footer">
-      <p class="find-me">Find me On:</p>
-      <div class="social-media">
-        <a
-          class="footer-logo__link"
-          href="https://github.com/jarengisner/portfolio-website"
-          target="_blank"
-        >
-          <img
-            src="img/211904_social_github_icon.svg"
-            alt="Github Logo"
-            class="footer_logo"
-          />
-        </a>
-        <a
-          class="footer-logo__link"
-          href="https://www.linkedin.com/in/jaren-gisner-800bb2265/"
-          target="_blank"
-        >
-          <img
-            src="img/104493_linkedin_icon.svg"
-            alt="LinkdIn Logo"
-            class="footer_logo"
-          />
-        </a>
-      </div>
-    </footer>
-    <script src="js/tota11y.min.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaren Gisner</title>
+  <link rel="icon" href="./img/favicon-32x32.png" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/style.production.css" type="text/css" />
+</head>
+
+<body>
+  <header class="standard-header">
+    <a href="index.html" class="headerLinkToHome"><img src="img/3rd-try.jpg" alt="Jaren-Gisner-logo"
+        class="standard-header_item" /></a>
+    <nav class="header_navbar">
+      <ul class="navigation-bar" role="menubar">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-bar__active">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="projects.html" role="menuitem" class="navigation-bar__inactive">Projects</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-bar__inactive">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-bar__inactive">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="standard-body">
+    <div class="profile">
+      <!--Make sure to replace http://via.placeholder.com/150x150 within page!-->
+      <img src="img/0.jpeg" alt="Jaren-Gisner-Image" class="profile__portrait" />
+      <!--Change text to not be Hello World later-->
+      <h1 class="greeting">Hi!</h1>
+      <p>
+        My name is Jaren Gisner I am a <span id="web">web</span> development
+        student!<br />
+        I am passionate about building and learning about all things coding
+        and development!
+      </p>
+    </div>
+    <div class="buttondiv">
+      <form action="projects.html" id="button__form">
+        <button id="clickButton">Click here to check out my work!</button>
+      </form>
+    </div>
+  </main>
+  <footer class="standard-footer">
+    <p class="find-me">Find me On:</p>
+    <div class="social-media">
+      <a class="footer-logo__link" href="https://github.com/jarengisner/portfolio-website" target="_blank">
+        <img src="img/211904_social_github_icon.svg" alt="Github Logo" class="footer_logo" />
+      </a>
+      <a class="footer-logo__link" href="https://www.linkedin.com/in/jaren-gisner-800bb2265/" target="_blank">
+        <img src="img/104493_linkedin_icon.svg" alt="LinkdIn Logo" class="footer_logo" />
+      </a>
+    </div>
+  </footer>
+  <script src="js/tota11y.min.js"></script>
+</body>
+
 </html>
