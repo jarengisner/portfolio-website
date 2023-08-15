@@ -264,6 +264,13 @@ button:hover {
   justify-content: center;
 }
 
+.reflection-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 @supports (display: grid) {
   .grid {
     display: -ms-grid;
